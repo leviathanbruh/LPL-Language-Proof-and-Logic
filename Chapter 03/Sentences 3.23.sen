@@ -1,0 +1,4 @@
+7.2.4.28445wnds:Windows 86.2SntFC1568755719260D1568756166219D1568756417910D1568756624530D1568756871774S143496Student(max) & ~Pet(max)Fed(claire, folly, 2:00)&Gave(claire, folly, max, 2:10)
+;Claire fed Folly at 2 pm and then ten minutes later gave her to Max.Owned(max, folly, 2:05) | Owned(claire, folly, 2:05)
+;Folly belonged to either Max or Claire at 2:05 pm.~(Fed(max, folly, 2:00) | Fed(max, folly, 2:05) | Fed(claire, folly, 2:00) | Fed(claire, folly, 2:05))(1:55<2:00)  & (2:00 < 2:05)
+;2:00 pm is between 1:55 pm and 2:05 pm.(Gave(max, folly, claire, 2:00) & ~Hungry(folly, 2:00)) & Hungry(folly, 3:00)s=93067;

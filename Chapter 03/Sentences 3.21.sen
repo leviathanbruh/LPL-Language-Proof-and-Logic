@@ -1,0 +1,13 @@
+7.2.4.28445wnds:Windows 86.2SntFC1568751053969D1568755601877S804712Small(a)  | (Large(c) & Large(d))
+;Either a is small or both c and d are large.BackOf(d, b ) & BackOf(e,b)
+;d and e are both in back of b.(BackOf(d, b ) & BackOf(e,b))  & (Larger(d,b) & Larger(e, b ))
+;d and e are both in back of b and larger than it.(Cube(d) & Cube(c))  & ~(Small(d) | Small(c))
+;Both d and c are cubes, however neither of them is small.~(RightOf( e,c)  & LeftOf(e, b))  &  ~(RightOf(a,c ) & LeftOf(a, b ))
+;Neither e nor a is to the right of c and to the left of b.~Large(e) | BackOf(e, a )
+;Either e is not large or it is in back of a.~(Between(c,a  ,b  ) | FrontOf(c,a)    |  FrontOf(c,b))
+;c is neither between a and b, nor in front of either of them.(Tet(a) & Tet(e))  | (Tet(a) & Tet(f))
+;Either both a and e are tetrahedra or both a and f are.~(FrontOf(d, c ) | FrontOf(d,b)  | FrontOf(c, b ))
+ ;Neither d nor c is in front of either c or b.(Between(c,d , f )) | (Smaller(c,d)  & Smaller(c,  f))
+;c is either between d and f or smaller than both of them.~SameRow(b, c )
+;It is not the case that b is in the same row as c.SameCol(b,  e) & SameRow(e,d)  &  SameCol(d, a )
+ ;b is in the same column as e, which is in the same row as d, which in turn is in the same column as a.s=201348;
