@@ -1,0 +1,2 @@
+7.2.4.28445wnds:Windows 86.2SntFC1572741993705D1572742194794D1572742312351S105342@x @y [(Cube(x) & Cube(y) &  x#y) $  (LeftOf(x, y) | 
+            RightOf(x, y))]/x /y (Cube(x) & Cube(y)&  x#y)s=32668;
